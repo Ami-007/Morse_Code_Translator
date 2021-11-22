@@ -1,5 +1,6 @@
 
 import {morse} from "./translator";
+import {getInput} from "./main.js";
 import {describe, it, expect} from "@jest/globals";
 
 
