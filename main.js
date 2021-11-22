@@ -9,3 +9,8 @@ const translateBtn = document.querySelector(".translateBtn");
 // console.log(input);
 // console.log(output);
 // console.log(translateBtn);
+
+translateBtn.addEventListener("click", () => {
+    morse(code);
+});
+
