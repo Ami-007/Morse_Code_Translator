@@ -4,7 +4,7 @@
   "description": "",
   "main": "translator.test.js",
   "scripts": {
-    "unittest": "jest ."
+    "morsetest": "jest ."
   },
   "author": "Ami",
   "license": "ISC",
