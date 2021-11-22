@@ -6,11 +6,16 @@ const input = document.querySelector(".input");
 const output = document.querySelector(".output");
 const translateBtn = document.querySelector(".translateBtn");
 
-// console.log(input);
-// console.log(output);
-// console.log(translateBtn);
+let storedInput = "";
+
+const getInput = () => {
+    storedInput = (input.value);
+    storedInput = morse(storedInput);
+    console.log(storedInput);
+    output.innerHTML = storedInput;
+  };
 
 translateBtn.addEventListener("click", () => {
-    morse(code);
+    getInput();
 });
 
